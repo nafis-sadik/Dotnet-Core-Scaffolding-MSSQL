@@ -6,3 +6,5 @@ namespace Dotnet_Core_Scaffolding_MSSQL
     {
     }
 }
+
+// Scaffold-DbContext "Server=DESKTOP-BHB3CJL;Database=BlueBirdDB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
