@@ -1,4 +1,4 @@
-# Scaffolding MS SQL Database with Dotnet Core 
+# Scaffolding MS SQL Database in Dotnet Core 
 
 ![Framework](https://img.shields.io/badge/framework-.net%20core%20v3.1-green)
 ![Database](https://img.shields.io/badge/Database-MS%20SQL-brightgreen)
