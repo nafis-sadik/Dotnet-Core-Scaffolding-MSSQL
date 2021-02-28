@@ -35,7 +35,12 @@ It's very simple. It's a C# class library targeting ***.net core 3.1.*** So make
     Go to ***Tools > NuGet package manger > Package Manager Console***
 **Step # 5 :** 
 
-    Run the following Command
+***Run the following Command***
+
+```sh
+Scaffold-DbContext "User Id=[Your User Id];Database=[Database Name];Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+```
+
 
 ***N.B: In case yout are not using windows authentication, use the following command***
 
