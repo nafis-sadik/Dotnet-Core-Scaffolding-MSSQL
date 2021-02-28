@@ -53,5 +53,5 @@ MIT
 
 ***Tools I used to create this read me. Might also help you!***
 
-[Shields IO](https://shields.io)
-[JBT](https://jbt.github.io/markdown-editor/)
+* [Shields IO](https://shields.io)
+* [JBT](https://jbt.github.io/markdown-editor/)
