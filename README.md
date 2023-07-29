@@ -38,14 +38,14 @@ It's very simple. It's a C# class library targeting ***.net core 3.1.*** So make
 ***Run the following Command***
 
 ```sh
-Scaffold-DbContext "User Id=[Your User Id];Database=[Database Name];Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "User Id=[Your User Id];Database=[Database Name];TrustServerCertificate=True;Encrypt=False;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities
 ```
 
 
 ***N.B: In case yout are not using windows authentication, use the following command***
 
 ```sh
-Scaffold-DbContext "User Id=[Your User Id];Password=[Your Password];Database=[Database Name];Trusted_Connection=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+Scaffold-DbContext "User Id=[Your User Id];Password=[Your Password];Database=[Database Name];TrustServerCertificate=True;Encrypt=False;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities
 ```
 
 License
